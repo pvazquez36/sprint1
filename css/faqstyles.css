@@ -1,0 +1,16 @@
+body {
+    background-image: url(../images/fondo.png);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+div {
+    text-decoration: underline;
+}
+
+.panel-body {
+    transform: scale(0);
+}
+
+.pregunta1:hover::after {
+    content: hola:
+}

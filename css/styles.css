@@ -1,0 +1,206 @@
+
+
+ 
+body {
+	background-image: url(../images/fondo.png);
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+/*.container {
+	max-width:1200px;
+	margin:0 auto;
+}*/
+
+header { 
+	background: #0050a0;
+}
+.container-fluid { 
+	 
+	text-align: center;
+}
+
+	.logo {
+		max-width: 100px;
+		display: block;	
+		margin-top:-15px;
+        padding: 0;
+	}
+.nav a { 
+	color: #fff;
+	width: 100%;
+	text-align: center;
+
+}
+.menu{
+	padding-bottom: 20px;
+}
+.menu a{
+	
+	
+	padding:2%;
+	
+}
+.main-nav a {
+
+	color: white;
+	text-transform: uppercase;
+}
+
+/*comienzo de slider*/
+.banner { 
+	padding-right:0px !important;
+	padding-left:0px !important;
+
+}
+/*fin de slider*/
+/*promociones*/
+.franja{
+    background-color: white;
+    padding: 20px 5px;
+    margin-top: 30px;
+}
+.tarjetas img{
+   width: 70%;
+   
+}
+.txt{
+    font-size: 0.8em;
+    text-align: center;
+}
+.millas img{
+    width: 50%;
+}
+.ocultar{
+    display: block;
+}
+.ico {
+    width: 30%
+}
+.l{
+    border:solid grey;
+    border-width: 0px 1px 0px 0px;
+}
+/*finde promociones*/
+/*productos destacados*/
+.vip-products{
+	padding-top: 20px;
+	
+	margin-bottom: 50px;
+	
+}
+.vip-products article{
+	padding:1%;
+	
+}
+
+.product img {
+	width: 100%;
+}
+.container-producto{
+    background-color: white;
+    padding: 10%;
+    
+}
+.catalogo{
+	height: 150px;
+	
+}
+.promo{
+	display: block;
+	background-color: red;
+	color: white;
+	width: 70px;
+	margin-top:10px;
+	
+	text-align: center;
+	border-radius:5px;
+}
+.precio-viejo{
+	font-size: 0.8em;
+	text-decoration: line-through;
+}
+.precio{
+	font-size: 1.2em;
+}
+/* fin productos destacados*/
+
+/*comienzo de info*/
+.info-back{
+    padding: 1%;
+    padding-top: 30px;
+    
+    }
+.info1{
+    background-image: url(../images/lg-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+    
+}
+.info2{
+    background-image: url(../images/audio-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+    
+}
+.select-info{
+    padding: 5%;
+}
+/*fin de info*/
+/*comienzo de footer*/
+.footer {
+	background: #fff;
+	width: 100%;
+	padding-top:20px;
+}
+.footer a {
+	
+	margin-bottom: 20px;
+	color: #000;
+	width: 20%;
+	text-align: center;
+	
+}
+.copyright{
+    font-size: 0.8em;
+    text-align: left;
+}
+/*fin de footer*/
+
+
+
+/*comienzo de media query*/
+
+@media (max-width: 600px) {
+    .container-producto{
+    text-align: center;
+    }
+    .promo{
+	display: block;
+    text-align: center;    
+	background-color: red;
+	color: white;
+	width: 70px;
+	margin:0 auto;
+	text-align: center;
+	
+}
+    .precio-viejo{
+        display: block;
+        width: 100%;
+        
+    }
+    .precio{
+        text-align: center;
+        display: block;
+        font-size: 1.2em;
+    }
+   .ocultar{
+    display: none;
+}
+}
+
+
